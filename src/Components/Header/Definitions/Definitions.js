@@ -17,7 +17,7 @@ const Definitions = ({ meanings, word, LightMode, category }) => {
       {/* audio---------------------------- */}
 
       {word === "" ? (
-        <span className="subTitle">Start by typing a word in search</span>
+        <span className="subTitle">Start by typing a word in standar</span>
       ) : (
         meanings.map((mean) =>
           mean.meanings.map((item) =>
@@ -36,11 +36,11 @@ const Definitions = ({ meanings, word, LightMode, category }) => {
                     <b>Example :</b> {def.example}
                   </span>
                 )}
-                {def.synonyms && (
+               {/* {def.synonyms && (
                   <span>
                     <b>Synonyms :</b> {def.synonyms}
                   </span>
-                )}
+               )} */}
               </div>
             ))
           )
