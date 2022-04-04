@@ -17,7 +17,7 @@ const Definitions = ({ meanings, word, LightMode, category }) => {
       {/* audio---------------------------- */}
 
       {word === "" ? (
-        <span className="subTitle">Start by typing a word in standar</span>
+        <span className="subTitle">Start by typing a word in standard</span>
       ) : (
         meanings.map((mean) =>
           mean.meanings.map((item) =>
