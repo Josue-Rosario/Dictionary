@@ -1,6 +1,6 @@
 const categories = [
     { value: "English", label: "en" },
-    { value: "Hindi", label: "hi" },
+   {/* { value: "Hindi", label: "hi" },
     { value: "Spanish", label: "es" },
     { value: "French", label: "fr" },
     { value: "Japanese", label: "ja" },
@@ -10,7 +10,7 @@ const categories = [
     { value: "Korean", label: "ko" },
     { value: "Brazilian Portuguese", label: "pt-BR" },
     { value: "Arabic", label: "ar" },
-    { value: "Turkish", label: "tr" },
+{ value: "Turkish", label: "tr" }, */}
   ];
   
   export default categories;
